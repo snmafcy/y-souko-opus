@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>洋服倉庫 名古屋守山本店 | 一着目から卸価格の独走価格</title>
+  <meta name="description" content="洋服倉庫は創業1998年。紳士スーツ・ブランドスーツ・礼服を卸価格で販売。名古屋市守山区の紳士服専門店。">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+
+  <!-- スタイルシート -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ============================================
+     ヘッダー
+============================================ -->
+<header class="header">
+  <div class="header-top">
+    一着目から卸価格の独走価格 ── 創業1998年 28周年
+  </div>
+  <div class="header-main">
+    <a href="https://www.y-souko.co.jp/" class="logo">
+      洋服倉庫
+      <small>名古屋守山本店</small>
+    </a>
+    <div class="header-contact">
+      <div class="header-tel">
+        <span class="header-tel-label">お電話でのお問い合わせ</span><br>
+        052-758-2306
+      </div>
+      <button class="mobile-menu-btn" onclick="document.querySelector('.nav-list').classList.toggle('active')">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+  <nav class="nav">
+    <ul class="nav-list">
+      <li><a href="#products">商品紹介</a></li>
+      <li><a href="#featured">おすすめ</a></li>
+      <li><a href="#online-shop">ネット通販</a></li>
+      <li><a href="#order-suit">オーダースーツ</a></li>
+      <li><a href="#shop-info">店舗情報</a></li>
+      <li><a href="https://www.y-souko.co.jp/gaiyou/" target="_blank">会社概要</a></li>
+      <li><a href="https://www.y-souko.co.jp/concept/" target="_blank">CONCEPT</a></li>
+    </ul>
+  </nav>
+</header>
+
+
+<!-- ============================================
+     ヒーローセクション
+     ※ 画像を差し替える場合は src="..." の URL を変更してください
+============================================ -->
+<section class="hero">
+  <div class="hero-inner">
+    <div class="hero-text">
+      <span class="hero-badge">創業28周年</span>
+      <h1 class="hero-title">
+        ブランドスーツを<br>
+        <span class="accent">卸価格</span>で。
+      </h1>
+      <p class="hero-subtitle">
+        トレンドもブランドスーツも「冬物新作」が大量入荷！<br>
+        紳士服専門店ならではの品揃えと価格でお届けします。
+      </p>
+      <a href="#products" class="btn btn-gold">商品を見る</a>
+    </div>
+    <div class="hero-image">
+      <!-- ▼ ヒーロー画像：差し替える場合はこの src を変更 -->
+      <img src="https://www.y-souko.co.jp/wordpress/wp-content/uploads/2025/03/main2c_ss70.gif" alt="洋服倉庫 店舗イメージ">
+    </div>
+  </div>
+</section>
+
+<!-- お知らせバナー（テキストを変更するだけでOK） -->
+<div class="announcement">
+  トレンドもブランドスーツも「冬物新作」が大量入荷！
+</div>
+
+
+<!-- ============================================
+     商品カテゴリー
+============================================ -->
+<section class="section" id="products">
+  <div class="container">
+    <div class="section-title">
+      <span class="en">Products</span>
+      <h2>商品紹介</h2>
+    </div>
+    <p class="section-desc">豊富なラインナップからお探しのアイテムをお選びください</p>
+
+    <!-- ▼ カテゴリーボタン：追加・削除する場合はこのブロックを編集 -->
+    <div class="category-grid">
+      <a href="https://item.rakuten.co.jp/y-souko/c/0000000102/" target="_blank" class="category-btn">紳士スーツ</a>
+      <a href="https://item.rakuten.co.jp/y-souko/c/0000000916/" target="_blank" class="category-btn">ブランドスーツ</a>
+      <a href="https://item.rakuten.co.jp/y-souko/c/0000000917/" target="_blank" class="category-btn">お値打ちスーツ</a>
+      <a href="https://item.rakuten.co.jp/y-souko/c/0000001212/" target="_blank" class="category-btn">3ピーススーツ</a>
+      <a href="https://item.rakuten.co.jp/y-souko/c/0000000918/" target="_blank" class="category-btn">2パンツスーツ</a>
+      <a href="https://item.rakuten.co.jp/y-souko/c/0000000862/" target="_blank" class="category-btn">リクルートスーツ</a>
+      <a href="https://item.rakuten.co.jp/y-souko/c/0000000431/" target="_blank" class="category-btn">コート</a>
+      <a href="https://item.rakuten.co.jp/y-souko/c/0000000380/" target="_blank" class="category-btn">ジャケット</a>
+      <a href="https://item.rakuten.co.jp/y-souko/c/0000000381/" target="_blank" class="category-btn">スラックス・パンツ</a>
+      <a href="https://item.rakuten.co.jp/y-souko/c/0000000106/" target="_blank" class="category-btn">礼服・フォーマル</a>
+      <a href="https://item.rakuten.co.jp/y-souko/c/0000001170/" target="_blank" class="category-btn">パーティ・婚礼・成人式</a>
+      <a href="https://item.rakuten.co.jp/y-souko/c/0000001186/" target="_blank" class="category-btn">アクセサリー・小物</a>
+    </div>
+    <!-- ▲ カテゴリーボタンここまで -->
+  </div>
+</section>
+
+
+<!-- ============================================
+     おすすめ商品・新入荷
+     ※ 商品の差し替え方法：
+     　 1. 下の「product-card」ブロックの中身を書き換える
+     　 2. href="..." → リンク先URL
+     　 3. src="..." → 商品画像URL
+     　 4. テキストを書き換える
+     　 5. カードを増やす場合はブロックをコピー
+============================================ -->
+<section class="section section-bg" id="featured">
+  <div class="container">
+    <div class="section-title">
+      <span class="en">Recommend</span>
+      <h2>おすすめ・新入荷</h2>
+    </div>
+    <p class="section-desc">スタッフが自信を持っておすすめする厳選アイテム</p>
+
+    <!-- ▼▼▼ おすすめ商品（ワイドバナー）ここから ▼▼▼ -->
+    <!-- ワイドバナー1：コートコレクション -->
+    <a href="https://item.rakuten.co.jp/y-souko/c/0000000431/" target="_blank" class="wide-banner">
+      <img src="https://www.y-souko.co.jp/wordpress/wp-content/uploads/2025/12/COAT_COLLECTION.jpg" alt="コートコレクション">
+    </a>
+
+    <!-- ワイドバナー2：インポートスーツ -->
+    <a href="https://item.rakuten.co.jp/y-souko/c/0000000916/" target="_blank" class="wide-banner">
+      <img src="https://www.y-souko.co.jp/wordpress/wp-content/uploads/2025/09/2025aw_imp1.jpg" alt="インポートスーツ">
+    </a>
+    <!-- ▲▲▲ ワイドバナーここまで ▲▲▲ -->
+
+    <!-- ▼▼▼ 商品カード（グリッド表示）ここから ▼▼▼
+         ※ 商品を差し替える場合は product-card ブロックごとコピー＆書き換え
+    -->
+    <div class="product-grid mt-32">
+
+      <!-- === 商品カード 1 === -->
+      <div class="product-card">
+        <a href="https://item.rakuten.co.jp/y-souko/c/0000001572/" target="_blank">
+          <div class="product-card-image">
+            <img src="https://www.y-souko.co.jp/wordpress/wp-content/uploads/2025/09/tyouraku_suits1kb3.jpg" alt="超楽スーツ">
+          </div>
+          <div class="product-card-body">
+            <span class="product-card-label">New</span>
+            <h3 class="product-card-name">超楽スーツ</h3>
+            <p class="product-card-desc">快適な着心地の新入荷スーツ</p>
+          </div>
+        </a>
+      </div>
+
+      <!-- === 商品カード 2 === -->
+      <div class="product-card">
+        <a href="https://search.rakuten.co.jp/search/mall/renoma/?sid=220258" target="_blank">
+          <div class="product-card-image">
+            <img src="https://www.y-souko.co.jp/wordpress/wp-content/uploads/2025/04/renoma_w5_b.jpg" alt="renoma ブランドスーツ">
+          </div>
+          <div class="product-card-body">
+            <span class="product-card-label">Brand</span>
+            <h3 class="product-card-name">renoma スーツ</h3>
+            <p class="product-card-desc">上質なブランドスーツを独走価格で</p>
+          </div>
+        </a>
+      </div>
+
+      <!-- === 商品カード 3 === -->
+      <div class="product-card">
+        <a href="https://search.rakuten.co.jp/search/mall/rsa%E3%80%80%E6%98%A5%E5%A4%8F%E7%A7%8B/?pls=1&sid=220258" target="_blank">
+          <div class="product-card-image">
+            <img src="https://www.y-souko.co.jp/wordpress/wp-content/uploads/2025/10/2025aw_3p_1.jpg" alt="3ピーススーツ">
+          </div>
+          <div class="product-card-body">
+            <span class="product-card-label">Popular</span>
+            <h3 class="product-card-name">3ピーススーツ</h3>
+            <p class="product-card-desc">トレンドのスリーピーススタイル</p>
+          </div>
+        </a>
+      </div>
+
+      <!-- === 商品カード 4 === -->
+      <div class="product-card">
+        <a href="https://item.rakuten.co.jp/y-souko/c/0000000390/" target="_blank">
+          <div class="product-card-image">
+            <img src="https://www.y-souko.co.jp/wordpress/wp-content/uploads/2025/09/2025_aw_SLACKS1.jpg" alt="スラックス">
+          </div>
+          <div class="product-card-body">
+            <span class="product-card-label">New</span>
+            <h3 class="product-card-name">秋冬スラックス</h3>
+            <p class="product-card-desc">豊富なサイズ展開のスラックス</p>
+          </div>
+        </a>
+      </div>
+
+      <!-- === 商品カード 5 === -->
+      <div class="product-card">
+        <a href="https://item.rakuten.co.jp/y-souko/wrf4001/" target="_blank">
+          <div class="product-card-image">
+            <img src="https://www.y-souko.co.jp/wordpress/wp-content/uploads/2025/11/y-souko_wrf4001_kai5-1.jpg" alt="ウォッシャブル礼服">
+          </div>
+          <div class="product-card-body">
+            <span class="product-card-label">Recommend</span>
+            <h3 class="product-card-name">ウォッシャブル礼服</h3>
+            <p class="product-card-desc">自宅で洗える便利な礼服</p>
+          </div>
+        </a>
+      </div>
+
+      <!-- === 商品カード 6 === -->
+      <div class="product-card">
+        <a href="https://item.rakuten.co.jp/y-souko/c/0000000124/" target="_blank">
+          <div class="product-card-image">
+            <img src="https://www.y-souko.co.jp/wordpress/wp-content/uploads/2025/04/20240517_fomal.jpg" alt="フォーマルスーツ">
+          </div>
+          <div class="product-card-body">
+            <span class="product-card-label">Formal</span>
+            <h3 class="product-card-name">フォーマルスーツ</h3>
+            <p class="product-card-desc">冠婚葬祭に最適な礼服</p>
+          </div>
+        </a>
+      </div>
+
+    </div>
+    <!-- ▲▲▲ 商品カードここまで ▲▲▲ -->
+
+    <!-- ▼ ワイドバナー追加エリア -->
+    <div class="mt-32">
+      <a href="https://item.rakuten.co.jp/y-souko/c/0000000862/" target="_blank" class="wide-banner">
+        <img src="https://www.y-souko.co.jp/wordpress/wp-content/uploads/2025/04/2023recruit_main_k.jpg" alt="リクルートスーツ">
+      </a>
+    </div>
+
+    <!-- 小物グリッド -->
+    <div class="product-grid mt-24">
+
+      <!-- === 小物カード 1 === -->
+      <div class="product-card">
+        <a href="https://item.rakuten.co.jp/y-souko/rj5001/" target="_blank">
+          <div class="product-card-image">
+            <img src="https://www.y-souko.co.jp/wordpress/wp-content/uploads/2025/04/y-souko_rj5001_i_20221114191706.jpg" alt="商品">
+          </div>
+        </a>
+      </div>
+
+      <!-- === 小物カード 2 === -->
+      <div class="product-card">
+        <a href="https://item.rakuten.co.jp/y-souko/lrj4201/" target="_blank">
+          <div class="product-card-image">
+            <img src="https://www.y-souko.co.jp/wordpress/wp-content/uploads/2025/04/y-souko_lrj4201_1_d_2022121.jpg" alt="商品">
+          </div>
+        </a>
+      </div>
+
+      <!-- === 小物カード 3 === -->
+      <div class="product-card">
+        <a href="https://item.rakuten.co.jp/y-souko/ksy202/" target="_blank">
+          <div class="product-card-image">
+            <img src="https://www.y-souko.co.jp/wordpress/wp-content/uploads/2025/04/knit_shirt_kendo1.jpg" alt="ニットシャツ">
+          </div>
+        </a>
+      </div>
+
+      <!-- === 小物カード 4 === -->
+      <div class="product-card">
+        <a href="https://item.rakuten.co.jp/y-souko/rj5002/" target="_blank">
+          <div class="product-card-image">
+            <img src="https://www.y-souko.co.jp/wordpress/wp-content/uploads/2025/10/y-souko_rj5002_i_20251022123944.jpg" alt="商品">
+          </div>
+        </a>
+      </div>
+
+    </div>
+
+    <!-- 贅沢カジュアルバナー -->
+    <div class="mt-24">
+      <a href="https://store.shopping.yahoo.co.jp/y-souko/search.html?p=%E8%B4%85%E6%B2%A2%E3%82%AB%E3%82%B8%E3%83%A5%E3%82%A2%E3%83%AB%E3%80%80-RJ9001&used=&uIv=on#CentSrchFilter1" target="_blank" class="wide-banner">
+        <img src="https://www.y-souko.co.jp/wordpress/wp-content/uploads/2025/04/zeitaku_casual_main1.jpg" alt="贅沢カジュアル">
+      </a>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- ============================================
+     ネット通販
+============================================ -->
+<section class="section" id="online-shop">
+  <div class="container">
+    <div class="section-title">
+      <span class="en">Online Shop</span>
+      <h2>ネット通販</h2>
+    </div>
+    <p class="section-desc">
+      楽天・Yahoo!ショッピングではモール内で購入して店舗受け取りも可能です。<br>
+      実際に商品の質感・サイズをご確認いただいてからご購入・お直しもご利用いただけます。<br>
+      店頭にお越しいただければ送料無料。ご納得いただけなければその場でキャンセルも可能です。
+    </p>
+
+    <!-- ▼ 通販リンク：追加・変更する場合はこのブロックを編集 -->
+    <div class="shop-cards">
+
+      <a href="https://www.rakuten.co.jp/y-souko/" target="_blank" class="shop-card">
+        <div class="shop-card-icon">&#128722;</div>
+        <h3>楽天市場</h3>
+        <p>店舗受け取りOK</p>
+        <span class="btn">ショップを見る</span>
+      </a>
+
+      <a href="https://store.shopping.yahoo.co.jp/y-souko/" target="_blank" class="shop-card">
+        <div class="shop-card-icon">&#128722;</div>
+        <h3>Yahoo!ショッピング</h3>
+        <p>店舗受け取りOK</p>
+        <span class="btn">ショップを見る</span>
+      </a>
+
+      <a href="https://www.amazon.co.jp/s?me=A1R9HQ6UAH2SP3&marketplaceID=A1VC38T7YXB528&redirect=true" target="_blank" class="shop-card">
+        <div class="shop-card-icon">&#128722;</div>
+        <h3>Amazon</h3>
+        <p>豊富な品揃え</p>
+        <span class="btn">ショップを見る</span>
+      </a>
+
+    </div>
+    <!-- ▲ 通販リンクここまで -->
+  </div>
+</section>
+
+
+<!-- ============================================
+     オーダースーツ
+============================================ -->
+<section class="section order-section" id="order-suit">
+  <div class="container">
+    <div class="section-title">
+      <span class="en">Order Suit</span>
+      <h2>オーダースーツ承ります</h2>
+    </div>
+
+    <div class="order-content">
+      <div class="order-text">
+        <h3>ハイグレード国内縫製</h3>
+        <div class="price">
+          29,700<small>円（税込）から</small>
+        </div>
+        <p>完全予約制でお一人おひとりに丁寧にご対応いたします。</p>
+        <p>お気軽にお問い合わせください。</p>
+        <div class="tel">052-758-2306</div>
+        <p><a href="mailto:info@sohken.jp" class="mail-link">メールでのお問い合わせはこちら</a></p>
+        <div class="order-cta">
+          <a href="https://www.y-souko.co.jp/wordpress/order/" class="btn btn-gold">オーダースーツ特設ページ</a>
+        </div>
+      </div>
+      <div class="order-images">
+        <!-- ▼ オーダースーツ画像：差し替える場合は src を変更 -->
+        <img src="https://www.y-souko.co.jp/wordpress/wp-content/uploads/2025/04/20210917_1_order.jpg" alt="オーダースーツ 生地">
+        <img src="https://www.y-souko.co.jp/wordpress/wp-content/uploads/2025/04/20210917_2_order.jpg" alt="オーダースーツ 採寸">
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ============================================
+     店舗情報
+============================================ -->
+<section class="section section-bg" id="shop-info">
+  <div class="container">
+    <div class="section-title">
+      <span class="en">Shop Info</span>
+      <h2>店舗情報</h2>
+    </div>
+
+    <div class="mb-32">
+      <img src="https://www.y-souko.co.jp/wordpress/wp-content/uploads/2025/04/iriguti.jpg" alt="洋服倉庫 守山本店 外観" class="shop-exterior">
+    </div>
+
+    <div class="shop-info-grid">
+      <div class="shop-info-detail">
+        <h3>洋服倉庫 守山本店</h3>
+        <table class="info-table">
+          <tr>
+            <th>住所</th>
+            <td>〒463-0048<br>愛知県名古屋市守山区小幡南3-2-49</td>
+          </tr>
+          <tr>
+            <th>電話</th>
+            <td>052-758-2306</td>
+          </tr>
+          <tr>
+            <th>FAX</th>
+            <td>052-758-2310</td>
+          </tr>
+          <tr>
+            <!-- ▼ 定休日・営業時間：変更する場合はここを編集 -->
+            <th>定休日</th>
+            <td class="highlight">2月は火曜定休</td>
+          </tr>
+          <tr>
+            <th>営業時間</th>
+            <td>AM10:00〜PM7:00（時短営業中）</td>
+            <!-- ▲ 定休日・営業時間ここまで -->
+          </tr>
+          <tr>
+            <th>駐車場</th>
+            <td>10台</td>
+          </tr>
+          <tr>
+            <th>メール</th>
+            <td><a href="mailto:info@sohken.jp" class="mail-link">info@sohken.jp</a></td>
+          </tr>
+        </table>
+      </div>
+
+      <div class="shop-map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3260.326245849651!2d136.97899197576618!3d35.19834177274696!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60036fd7f287c18d%3A0xa52679fc4d93fe6f!2z44CSNDYzLTAwNDgg5oSb55-l55yM5ZCN5Y-k5bGL5biC5a6I5bGx5Yy65bCP5bmh5Y2X77yT5LiB55uu77yS4oiS77yU77yZ!5e0!3m2!1sja!2sjp!4v1744599409738!5m2!1sja!2sjp" allowfullscreen loading="lazy"></iframe>
+      </div>
+    </div>
+
+    <!-- 地図画像 -->
+    <div class="mt-32 text-center">
+      <h3 class="access-card h4">道路が開通して便利になりました</h3>
+      <img src="https://www.y-souko.co.jp/wordpress/wp-content/uploads/2025/04/2025map.jpg" alt="アクセスマップ" class="access-map-img">
+    </div>
+
+    <!-- アクセス情報 -->
+    <div class="access-info">
+      <div class="section-title">
+        <h2>アクセス</h2>
+      </div>
+      <div class="access-grid">
+
+        <div class="access-card">
+          <h4>電車の場合</h4>
+          <p>名鉄瀬戸線 小幡駅南口を出て、南東方面へ約15分。</p>
+        </div>
+
+        <div class="access-card">
+          <h4>高速道路をご利用の場合</h4>
+          <p>東名阪 大森ICで降り、大森IC南交差点を右折。5つ目の信号を右折すると見えてきます。</p>
+        </div>
+
+        <div class="access-card">
+          <h4>栄方面からお越しの場合</h4>
+          <p>基幹バスレーンを東へ進み千代田橋南交差点を左折。橋を渡り最初の信号を右折。4つ目の信号を左折すると見えてきます。</p>
+        </div>
+
+        <div class="access-card">
+          <h4>春日井方面からお越しの場合</h4>
+          <p>松川橋を渡り、名鉄線を越え、城下交差点を左折。4つ目の信号を左折すると見えてきます。</p>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="text-center mt-24">
+      <a href="https://www.google.com/maps/place/%E6%B4%8B%E6%9C%8D%E5%80%89%E5%BA%AB/@35.19835,136.9793883,17z" target="_blank" class="btn btn-outline">Googleマップで見る</a>
+    </div>
+  </div>
+</section>
+
+
+<!-- ============================================
+     LINE 友だち登録
+============================================ -->
+<section class="section line-section">
+  <div class="container">
+    <div class="line-content">
+      <div class="line-text">
+        <h2>LINE お友達登録</h2>
+        <p>LINEのお友達追加をしていただくと</p>
+        <div class="coupon-highlight">5,000円以上で使える 500円OFFクーポン</div>
+        <p>新製品の入荷情報をいち早くお届け！</p>
+        <p>限定割引クーポンもお届けいたします。</p>
+        <!-- ▼ LINEリンク：変更する場合は href を編集 -->
+        <a href="https://lin.ee/8vD5VCQ" target="_blank" class="btn-line">友だち追加する</a>
+      </div>
+      <div>
+        <img src="https://www.y-souko.co.jp/wordpress/wp-content/uploads/2025/04/2025tennai.jpg" alt="店内の様子" class="line-image">
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ============================================
+     公式Instagram
+============================================ -->
+<section class="section" id="instagram">
+  <div class="container">
+    <div class="section-title">
+      <span class="en">Instagram</span>
+      <h2>公式 Instagram</h2>
+    </div>
+
+    <div class="insta-header">
+      <img src="https://www.y-souko.co.jp/wordpress/wp-content/uploads/2025/04/21980708_143305349522749_5190522673624514560_n-150x150.jpg" alt="洋服倉庫official" class="insta-avatar">
+      <div>
+        <div class="insta-name">洋服倉庫official</div>
+        <div class="insta-id">
+          <a href="https://www.instagram.com/y_souko_official" target="_blank">@y_souko_official</a>
+        </div>
+      </div>
+    </div>
+    <p class="insta-bio">
+      名古屋市守山区の紳士服店です。卸主体の倉庫を店舗改装して解放しています。
+    </p>
+
+    <div class="text-center">
+      <a href="https://www.instagram.com/y_souko_official" target="_blank" class="btn">Instagramを見る</a>
+    </div>
+  </div>
+</section>
+
+
+<!-- ============================================
+     フッター
+============================================ -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <h4>洋服倉庫 名古屋守山本店</h4>
+        <p>
+          〒463-0048 愛知県名古屋市守山区小幡南3-2-49<br>
+          TEL: 052-758-2306 / FAX: 052-758-2310<br>
+          <a href="mailto:info@sohken.jp" class="mail-link">info@sohken.jp</a>
+        </p>
+      </div>
+      <div>
+        <h4>メニュー</h4>
+        <ul class="footer-links">
+          <li><a href="#products">商品紹介</a></li>
+          <li><a href="#online-shop">ネット通販</a></li>
+          <li><a href="#order-suit">オーダースーツ</a></li>
+          <li><a href="#shop-info">店舗情報</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>その他</h4>
+        <ul class="footer-links">
+          <li><a href="https://www.y-souko.co.jp/gaiyou/" target="_blank">会社概要</a></li>
+          <li><a href="https://www.y-souko.co.jp/concept/" target="_blank">CONCEPT</a></li>
+          <li><a href="https://www.y-souko.co.jp/%e3%83%97%e3%83%a9%e3%82%a4%e3%83%90%e3%82%b7%e3%83%bc%e3%83%9d%e3%83%aa%e3%82%b7%e3%83%bc/" target="_blank">プライバシーポリシー</a></li>
+          <li><a href="https://www.y-souko.co.jp/law/" target="_blank">特定商取引法に基づく表記</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      &copy; 洋服倉庫 名古屋守山本店 All Rights Reserved.
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
